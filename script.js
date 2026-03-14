@@ -231,7 +231,7 @@ function keepCaretAtEnd(input) {
 
 function startTutorial(query) {
   tutorialQuery = query;
-  stopBtn.style.display = "inline-block";
+  stopBtn.style.display = "block";
   setTips("让我来教你正确的打开方式");
 
   // 先从左上角出现
